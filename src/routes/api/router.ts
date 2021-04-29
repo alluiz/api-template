@@ -1,15 +1,9 @@
 import express from 'express';
 
-import FooRouter from './fooRouter';
+import MusicRouter from './musicRouter';
 
 const router =  express.Router();
 
-router.use('/foo', FooRouter);
-
-// index => lista
-// show => unico item
-// create => criar
-// update => atualizar
-// delete or destroy => excluir
+router.use('/music', MusicRouter);
 
 export default router;

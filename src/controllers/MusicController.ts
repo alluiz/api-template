@@ -1,8 +1,8 @@
 import { Request, Response } from 'express';
 
-import FooService from '../services/FooService';
+import MusicService from '../services/MusicService';
 
-const fooService = new FooService();
+const musicService = new MusicService();
 
 class FooController {
 
@@ -10,7 +10,7 @@ class FooController {
 
         try {
 
-            const result = await fooService.getAll();
+            const result = await musicService.getAll();
 
             if (result)
                 return response.json(result);
@@ -34,7 +34,7 @@ class FooController {
 
             const id: string = request.params.id;
 
-            const result = await fooService.get(id);
+            const result = await musicService.get(id);
 
             if (result)
                 return response.json(result);
