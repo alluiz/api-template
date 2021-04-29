@@ -1,10 +1,3 @@
-
-interface CodBarra {
-    type?: string,
-    status: boolean,
-    length?: number
-}
-
 class FooService {
 
     async getAll() {
