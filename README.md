@@ -9,14 +9,14 @@ This is the folder structure used by this template. The each folder usage will b
 ```
 ./src
    /controllers
-    - FooController.ts
+    - MusicController.ts
    /routes
     /api
       - router.ts
-      - fooRouter.ts
+      - musicRouter.ts
     - router.ts
    /services
-    - FooService.ts
+    - MusicService.ts
    - server.ts
 ./test
   - server.spec.ts
