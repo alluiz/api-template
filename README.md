@@ -108,7 +108,7 @@ class MusicController {
 
 ## Services Folder
 
-This folder purpouse is to write the business code logic. In our example, the music service will return a list of our music.
+This folder purpouse is to write the business logic code. In our example, the music service will return a list of our music.
 
 ```
 
